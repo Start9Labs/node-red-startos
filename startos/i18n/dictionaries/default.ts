@@ -28,6 +28,7 @@ const dict = {
   'Your flows stop running, and stay stopped on every restart until you leave safe mode.': 19,
   'Leave Safe Mode': 20,
   'Safe mode is on: Node-RED loads the editor but runs no flow. Turn it off to run flows again.': 21,
+  'Node-RED restarts and runs your deployed flows again, including any flow you entered safe mode to fix.': 23,
   // init/watchCredentials.ts
   'Node-RED flows can run arbitrary code, so the editor must be password protected before it starts.': 22,
 } as const

@@ -25,6 +25,7 @@ export default {
     20: 'Salir del modo seguro',
     21: 'El modo seguro está activado: Node-RED carga el editor pero no ejecuta ningún flujo. Desactívalo para volver a ejecutarlos.',
     22: 'Los flujos de Node-RED pueden ejecutar código arbitrario, así que el editor debe estar protegido con contraseña antes de arrancar.',
+    23: 'Node-RED se reinicia y vuelve a ejecutar tus flujos desplegados, incluido cualquier flujo por el que entraste en modo seguro.',
   },
   de_DE: {
     0: 'Weboberfläche',
@@ -50,6 +51,7 @@ export default {
     20: 'Abgesicherten Modus verlassen',
     21: 'Der abgesicherte Modus ist aktiv: Node-RED lädt den Editor, führt aber keinen Flow aus. Schalten Sie ihn aus, um Flows wieder auszuführen.',
     22: 'Node-RED-Flows können beliebigen Code ausführen, daher muss der Editor vor dem Start mit einem Passwort geschützt werden.',
+    23: 'Node-RED startet neu und führt Ihre bereitgestellten Flows wieder aus, auch einen Flow, den Sie im abgesicherten Modus korrigieren wollten.',
   },
   pl_PL: {
     0: 'Interfejs webowy',
@@ -75,6 +77,7 @@ export default {
     20: 'Wyłącz tryb awaryjny',
     21: 'Tryb awaryjny jest włączony: Node-RED ładuje edytor, ale nie uruchamia żadnego przepływu. Wyłącz go, aby przepływy znów działały.',
     22: 'Przepływy Node-RED mogą wykonywać dowolny kod, dlatego edytor musi być chroniony hasłem, zanim wystartuje.',
+    23: 'Node-RED uruchomi się ponownie i znów będzie wykonywać wdrożone przepływy, w tym przepływ, z powodu którego włączono tryb awaryjny.',
   },
   fr_FR: {
     0: 'Interface web',
@@ -100,5 +103,6 @@ export default {
     20: 'Quitter le mode sans échec',
     21: "Le mode sans échec est activé : Node-RED charge l'éditeur mais n'exécute aucun flux. Désactivez-le pour exécuter à nouveau vos flux.",
     22: "Les flux Node-RED peuvent exécuter du code arbitraire ; l'éditeur doit donc être protégé par un mot de passe avant de démarrer.",
+    23: 'Node-RED redémarre et exécute à nouveau vos flux déployés, y compris un flux que vous vouliez corriger en passant en mode sans échec.',
   },
 } satisfies Record<string, LangDict>
