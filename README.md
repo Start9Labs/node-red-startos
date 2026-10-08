@@ -115,7 +115,7 @@ Run it when scheduled flows should fire on local time rather than UTC. It valida
 
 Run it when a deployed flow is crashing the runtime or consuming the box, and the editor is unreachable or unusable as a result. It flips one flag in `store.json`; the daemon restarts with `NODE_RED_ENABLE_SAFE_MODE` set, and Node-RED loads the editor without starting any flow, which is enough to edit or delete the offending one.
 
-The flag is sticky — Node-RED keeps starting with flows stopped until the action is run again. Its name and description flip to match the current state, so the same action turns it on and off.
+The flag is sticky — Node-RED keeps starting with flows stopped until the action is run again. Its name and description flip to match the current state, so the same action turns it on and off. Both directions ask for confirmation first: entering warns that flows stop until safe mode is left, leaving warns that Node-RED restarts and runs every deployed flow again.
 
 ## Tasks
 

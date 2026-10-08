@@ -17,7 +17,9 @@ export const toggleSafeMode = sdk.Action.withoutInput(
             'Load the editor without running any flow, so a flow that crashes or overloads Node-RED can be fixed or deleted.',
           ),
       warning: safeMode
-        ? null
+        ? i18n(
+            'Node-RED restarts and runs your deployed flows again, including any flow you entered safe mode to fix.',
+          )
         : i18n(
             'Your flows stop running, and stay stopped on every restart until you leave safe mode.',
           ),
