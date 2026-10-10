@@ -13,7 +13,7 @@ export const manifest = setupManifest({
   volumes: ['main', 'startos'],
   images: {
     'node-red': {
-      source: { dockerTag: 'nodered/node-red:5.0.7' },
+      source: { dockerTag: 'nodered/node-red:5.0.8' },
       arch: ['x86_64', 'aarch64'],
     },
   },
