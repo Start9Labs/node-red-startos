@@ -1,18 +1,18 @@
 import { IMPOSSIBLE, VersionInfo } from '@start9labs/start-sdk'
 
 export const current = VersionInfo.of({
-  version: '5.0.9:0',
+  version: '5.0.10:0',
   releaseNotes: {
     en_US:
-      'Updated Node-RED to 5.0.9 and start-sdk to 3.1.0. Fixes CSV processing and repeated MQTT connections, and improves the editor. Range nodes now drop non-numeric input instead of coercing it; check affected flows before updating. [Full upstream release notes](https://github.com/node-red/node-red/releases/tag/5.0.9)',
+      'Updated Node-RED to 5.0.10, a security and stability release. Hardens the editor and its API against malformed requests and path tricks in projects and context storage, fixes a denial of service from compressed requests, and stops several faults from crashing Node-RED. [Full upstream release notes](https://github.com/node-red/node-red/releases/tag/5.0.10)',
     es_ES:
-      'Se actualizaron Node-RED a 5.0.9 y start-sdk a 3.1.0. Corrige el procesamiento de CSV y las conexiones MQTT repetidas, y mejora el editor. Los nodos Range ahora descartan las entradas no numéricas en vez de convertirlas; revisa los flujos afectados antes de actualizar. [Notas completas de la versión original](https://github.com/node-red/node-red/releases/tag/5.0.9)',
+      'Se actualizó Node-RED a 5.0.10, una versión de seguridad y estabilidad. Refuerza el editor y su API frente a solicitudes malformadas y rutas manipuladas en proyectos y en el almacenamiento de contexto, corrige una denegación de servicio mediante solicitudes comprimidas y evita que varios fallos detengan Node-RED. [Notas completas de la versión original](https://github.com/node-red/node-red/releases/tag/5.0.10)',
     de_DE:
-      'Node-RED wurde auf 5.0.9 und start-sdk auf 3.1.0 aktualisiert. Behebt die CSV-Verarbeitung und wiederholte MQTT-Verbindungen und verbessert den Editor. Range-Knoten verwerfen jetzt nichtnumerische Eingaben, statt sie umzuwandeln; betroffene Flows vor dem Update prüfen. [Vollständige Versionshinweise des Upstream-Projekts](https://github.com/node-red/node-red/releases/tag/5.0.9)',
+      'Node-RED wurde auf 5.0.10 aktualisiert, eine Sicherheits- und Stabilitätsversion. Härtet den Editor und seine API gegen fehlerhafte Anfragen und manipulierte Pfade in Projekten und im Kontextspeicher, behebt eine Denial-of-Service-Lücke durch komprimierte Anfragen und verhindert, dass mehrere Fehler Node-RED zum Absturz bringen. [Vollständige Versionshinweise des Upstream-Projekts](https://github.com/node-red/node-red/releases/tag/5.0.10)',
     pl_PL:
-      'Zaktualizowano Node-RED do wersji 5.0.9 i start-sdk do 3.1.0. Poprawiono przetwarzanie CSV, ponawiane połączenia MQTT i edytor. Węzły Range odrzucają teraz dane nienumeryczne zamiast je konwertować; przed aktualizacją sprawdź przepływy korzystające z takich danych. [Pełne informacje o wydaniu projektu źródłowego](https://github.com/node-red/node-red/releases/tag/5.0.9)',
+      'Zaktualizowano Node-RED do wersji 5.0.10, wydania poprawiającego bezpieczeństwo i stabilność. Zabezpiecza edytor i jego API przed niepoprawnymi żądaniami oraz zmanipulowanymi ścieżkami w projektach i magazynie kontekstu, usuwa podatność na odmowę usługi przez skompresowane żądania i zapobiega awariom Node-RED wywoływanym przez kilka błędów. [Pełne informacje o wydaniu projektu źródłowego](https://github.com/node-red/node-red/releases/tag/5.0.10)',
     fr_FR:
-      'Mise à jour de Node-RED vers la version 5.0.9 et de start-sdk vers la version 3.1.0. Corrige le traitement CSV et les connexions MQTT répétées, et améliore l’éditeur. Les nœuds Range ignorent désormais les entrées non numériques au lieu de les convertir ; vérifiez les flux concernés avant la mise à jour. [Notes de version complètes du projet en amont](https://github.com/node-red/node-red/releases/tag/5.0.9)',
+      'Mise à jour de Node-RED vers la version 5.0.10, une version de sécurité et de stabilité. Renforce l’éditeur et son API contre les requêtes malformées et les chemins détournés dans les projets et le stockage de contexte, corrige un déni de service par requêtes compressées et empêche plusieurs erreurs de faire planter Node-RED. [Notes de version complètes du projet en amont](https://github.com/node-red/node-red/releases/tag/5.0.10)',
   },
   migrations: {
     up: async ({ effects }) => {},
